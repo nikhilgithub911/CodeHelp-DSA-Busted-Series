@@ -6,6 +6,8 @@ int getMin(int num[], int n) {
     int mini = INT_MAX;
     
     for(int i = 0; i<n; i++) {
+
+        // min is  predefined functions
         
         mini = min( mini, num[i]);
         
@@ -23,6 +25,7 @@ int getMax(int num[], int n) {
     int maxi = INT_MIN;
     
     for(int i = 0; i<n; i++) {
+        //max is predefined functions
 
         maxi = max(maxi, num[i]);
 
